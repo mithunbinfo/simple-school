@@ -1,0 +1,331 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  font-size: 58px;
+  line-height: 80px;
+  font-weight: 700;
+  color: #252b42;
+}
+
+h2 {
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 700;
+}
+
+h5 {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+h6 {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+p {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #737373;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #fff2f3;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.websit-logo h3 {
+  font-size: 24px;
+  line-height: 32px;
+  color: #252b42;
+}
+
+header ul {
+  display: flex;
+}
+
+header ul li {
+  list-style: none;
+  padding: 10px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #737373;
+  font-weight: 600;
+}
+
+.login-menu a,
+.packages-left a,
+.video-right a,
+.testimonials a,
+.team a,
+.newsletter a {
+  text-decoration: none;
+  color: #96bb7c;
+  font-weight: 600;
+  padding-right: 30px;
+}
+
+.btn {
+  padding: 14px 25px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.btn-green {
+  color: white;
+  background-color: #96bb7c;
+  border: 1px solid #96bb7c;
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.banner-description,
+.banner img,
+.packages-left,
+.packages-right {
+  width: 50%;
+}
+
+.banner-description h6 {
+  color: #96bb7c;
+  padding-bottom: 20px;
+}
+
+.banner-description h5 {
+  color: #737373;
+  padding: 20px 0 30px;
+}
+
+.btn-second {
+  color: #96bb7c;
+  background-color: #fff2f3;
+  border: 1px solid #96bb7c;
+}
+
+.banner img {
+  background-image: url(./resource/hero-cover.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.banner img {
+  max-width: 500px;
+}
+
+.packages,
+.packages-right,
+.video {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.packages,
+.video,
+.testimonials,
+.newsletter {
+  padding: 150px 0;
+}
+
+.packages-left hr,
+.video-right hr {
+  width: 100px;
+  border: 5px solid #e74040;
+}
+
+.packages-left h2,
+.video-right h2 {
+  padding: 40px 0 20px;
+}
+
+.packages-left p,
+.video-right p {
+  padding: 20px 0 40px;
+}
+
+.packages-right img {
+  padding: 15px;
+  background-color: #96bb7c;
+  border-radius: 5px;
+}
+
+.packages-right h3,
+.packages-right p {
+  padding: 20px 0;
+}
+
+.packages-right hr {
+  width: 65px;
+  border: 1px solid #e74040;
+}
+
+.packages-right-a,
+.packages-right-b {
+  padding: 40px;
+  box-shadow: 0px 5px 20px -10px gray;
+}
+
+.video-right {
+  padding-left: 150px;
+}
+
+.video-left {
+  background-image: url(./resource/hero-cover2.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.testimonials h2,
+.team h2 {
+  padding: 20px 0;
+}
+
+.testimonial-review {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.testimonial-review img {
+  border-radius: 50%;
+  padding: 20px 0;
+}
+
+.testimonial-1,
+.testimonial-2 {
+  padding: 120px;
+}
+
+.star {
+  color: #f3cd03;
+  padding: 15px 0;
+}
+
+.testimonial-1 small {
+  color: #737373;
+}
+
+.team-member {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.member-1,
+.member-2,
+.member-3,
+.member-4 {
+  border-radius: 20px;
+  box-shadow: 0px 5px 20px -10px gray;
+}
+
+.team-member img {
+  border-radius: 20px 20px 0 0;
+}
+
+.team-member .icon {
+  color: #96bb7c;
+  font-size: 24px;
+  padding-bottom: 30px;
+}
+
+.team-member h3 {
+  padding-top: 30px;
+}
+
+.team-member p {
+  padding: 7px 0;
+}
+
+.newslater-main {
+  text-align: center;
+  background-color: #fff2f3;
+}
+
+.subscribe-btn {
+  padding: 14px 25px;
+  border-radius: 0 5px 5px 0;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+input {
+  border: none;
+  padding: 16px;
+}
+
+.newsletter h2 {
+  padding: 10px;
+}
+
+.newsletter p {
+  padding-bottom: 100px;
+}
+
+.footer-area {
+  display: flex;
+  padding: 100px 0;
+}
+
+.footer-area-1,
+.footer-area-2,
+.footer-area-3,
+.footer-area-4 {
+  width: 20%;
+}
+
+footer h3 {
+  padding-bottom: 20px;
+}
+
+footer ul li {
+  list-style: none;
+  padding: 10px 0;
+}
+
+.icon,
+footer i {
+  color: #96bb7c;
+}
+
+.copyright-area {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.copyright-area p {
+  font-size: 24px;
+}
+
+.footer-bottom {
+  background-color: #fafafa;
+  padding: 20px 0;
+}
